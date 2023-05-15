@@ -5,10 +5,8 @@ class SecondTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: Text('2nd Tab'),
-      ),
+    return const Center(
+      child: Text('2nd Tab'),
     );
   }
 }

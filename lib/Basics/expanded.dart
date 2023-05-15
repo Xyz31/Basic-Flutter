@@ -7,7 +7,7 @@ class Expand extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hello Man '),
+        title: const Text('Hello Man '),
         backgroundColor: Colors.cyanAccent,
       ),
       body: Row(
@@ -15,21 +15,21 @@ class Expand extends StatelessWidget {
           Expanded(
             flex: 4,
             child: Container(
-                padding: EdgeInsets.all(20.0),
-                child: Text(' 1st '),
-                color: Colors.indigo),
+                padding: const EdgeInsets.all(20.0),
+                color: Colors.indigo,
+                child: const Text(' 1st ')),
           ),
           Expanded(
             child: Container(
-              child: Text('2nd'),
               color: Colors.brown,
+              child: const Text('2nd'),
             ),
           ),
           Expanded(
             flex: 2,
             child: Container(
-              child: Text('3rd'),
               color: Colors.purple,
+              child: const Text('3rd'),
             ),
           ),
         ],

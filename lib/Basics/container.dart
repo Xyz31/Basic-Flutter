@@ -7,7 +7,7 @@ class BasicContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Container"),
+          title: const Text("Container"),
           backgroundColor: Colors.black26,
         ),
         body: const Padding(

@@ -18,15 +18,15 @@ class RowClass extends StatelessWidget {
                 color: Colors.black26,
                 child: const Text('Hello khan'),
               ),
-              Container(color: Colors.black45, child: Text("Khan")),
-              Center(
+              Container(color: Colors.black45, child: const Text("Khan")),
+              const Center(
                 child: Text('Ghairat mand'),
               )
             ],
           ),
-          Column(
+          const Column(
             children: [Text('buland ')],
-          )
+          ),
         ],
       ),
     );

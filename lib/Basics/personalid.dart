@@ -11,13 +11,13 @@ class Personal extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Center(
+          const Center(
             child: CircleAvatar(
               backgroundImage: AssetImage('assets/343619.jpg'),
               radius: 50.0,
             ),
           ),
-          Divider(
+          const Divider(
             height: 50.0,
             color: Colors.blueGrey,
           ),

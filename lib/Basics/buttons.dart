@@ -7,7 +7,7 @@ class Buttons extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Thi sis button bar"),
+          title: const Text("Thi sis button bar"),
           centerTitle: true,
         ),
         body: Center(
@@ -26,7 +26,7 @@ class Buttons extends StatelessWidget {
             onPressed: () {},
           ), */
 
-          child: TextButton(onPressed: () {}, child: Text("Click")),
+          child: TextButton(onPressed: () {}, child: const Text("Click")),
         ));
   }
 }
